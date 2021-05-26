@@ -1,0 +1,32 @@
+.timer-container {
+	background-color: var(--timer-background-color);
+	border: var(--timer-border);
+	height: var(--timer-height);
+	width: var(--timer-width);
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-end;
+
+}
+.timer-button-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 20%;
+	width: 100%;
+	align-items: center;
+	
+	
+
+	
+}
+.time-display {
+	width: 100%;
+	height: 80%;
+	height: 15rem;
+	align-items: center;
+	justify-content: center;
+	font-size: 15rem;
+	
+}

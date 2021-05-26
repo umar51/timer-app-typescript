@@ -4,9 +4,9 @@
 name: React app deploy to surge.
 on:
   push:
-    branches: [ master ]
+    branches: [ mian ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:

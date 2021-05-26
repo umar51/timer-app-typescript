@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
-    - uses: borales/actions-yarn@v3.0.0
+    - uses: borales/actions-yarn@v3.0.0-rc.2
       with:
         cmd: install # will run `yarn install` command
     - name: BUild React App
